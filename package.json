@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "web": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -25,5 +26,8 @@
     "url": "https://github.com/yosuanicolaus/odin-message-board/issues"
   },
   "homepage": "https://github.com/yosuanicolaus/odin-message-board#readme",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "16.13.2"
+  }
 }
