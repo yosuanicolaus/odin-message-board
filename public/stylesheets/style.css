@@ -3,6 +3,20 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+li {
+  padding: 5px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.text {
+  font-size: larger;
+}
+
+.user {
+  margin: 10px 0;
+}
+
+.added {
+  font-size: smaller;
 }

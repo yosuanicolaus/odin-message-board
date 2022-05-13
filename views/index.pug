@@ -6,9 +6,9 @@ block content
   ul
     each message in messages
       li 
-        div= message.text
-        div= message.user
-        div= message.added
+        .text= message.text
+        .user= message.user
+        .added= message.added
 
   form(action="/new" method="get")
     input(type="submit", value="create new post")
