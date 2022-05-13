@@ -15,8 +15,14 @@ li {
 
 .user {
   margin: 10px 0;
+  color: darkslategray;
 }
 
 .added {
   font-size: smaller;
+  color: gray;
+}
+
+form div {
+  margin: 10px;
 }
