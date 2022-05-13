@@ -9,3 +9,6 @@ block content
         div= message.text
         div= message.user
         div= message.added
+
+  form(action="/new" method="get")
+    input(type="submit", value="create new post")
