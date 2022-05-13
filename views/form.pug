@@ -1,0 +1,12 @@
+extends layout 
+
+block content
+    h1 New Message 
+    form(action="/new" method="post")
+        div 
+            label(for="text") text: 
+            input(type="text", name="text", placeholder="your text here") 
+        div
+            label(for="user") user: 
+            input(type="text", name="user" placeholder="your name here")
+        button(type="submit") Submit 
